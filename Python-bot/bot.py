@@ -3,7 +3,7 @@ import time as t
 def bot():
     print("Starting bot ...")
     for i in reversed(range(3)):
-        t.sleep(1)
+        t.sleep(0.5)
         print(f"{i+1}")
     print("Say hi!")
     you = input()
